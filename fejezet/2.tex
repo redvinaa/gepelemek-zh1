@@ -80,7 +80,35 @@
 		\2 $F_\text{v} = 18176$ N
 		\2 A \ref{csavarkotes}-es alszakasz alapján $M_t = 38844$ Nmm
 		\2 $\sigma = \frac{F}{A} = 160.7$ MPa
-		\2 $\tau = \frac{M_tau}{I_\text{p}}e = 114.5$ MPa
+		\2 $\tau = \frac{M_\tau}{I_\text{p}}e = \frac{M_\text{t}}{\frac{d_5^4\pi}{32}}\frac{d_5}{2} = 114.5$ MPa
 		\2 itt vagy a tömör ($d_3$), vagy a névleges ($d_2$) átmérővel számolunk
 		\2 $\sigma_\text{HMH} = 255.3$ MPa
 \end{outline}
+
+\subsection{Külső lazítás}
+
+\begin{wrapfigure}{r}{.35\textwidth}
+ \vspace{-3cm}
+ \centering
+ \includegraphics[width=\linewidth]{kulso-lazitas}
+ \caption{Külső lazítás}
+\end{wrapfigure}
+\parbox{.6\textwidth}{
+\begin{outline}
+	\1 megoldás
+		\2 a csavar megnyúlása (menet + szár)
+			$\lambda_\text{cs} = \frac{F_\text{v}l_1}{A_1E_1}+\frac{F_\text{v}l_2}{A_2E_2}$
+		\2 a csavar rugómerevsége $s_\text{cs}=\frac{F_\text{cs}}{\lambda_\text{cs}}$
+		\2 a közrefogott elemek rugómerevsége (kúp közelítés)
+			$ \lambda_\text{k}=\frac{E_2}{h}\frac{\brc{D^2-d^2}\pi}{4} $
+		\2 $ F_1 = \frac{s_\text{cs}}{s_\text{cs}+s_\text{k}}F_\text{ü} $
+		\2 $ F_2 = \frac{s_\text{k}}{s_\text{cs}+s_\text{k}}F_\text{ü} $
+		\2 $ F_\text{krit} = \frac{s_\text{cs}+s_\text{k}}{s_\text{k}}F_\text{v} $
+		\2 $F_\text{krit}$ növelhető keményebb csavarral, vagy lágyabb közrefogott elemekkel
+\end{outline}}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.8\textwidth]{lazitas}
+	\caption{Lazítás konstrukciós példák}
+\end{figure}

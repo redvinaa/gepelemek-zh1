@@ -231,18 +231,33 @@ l.1 \section
 Overfull \hbox (9.99998pt too wide) in paragraph at lines 67--68
 []$[]$ 
 [3 <./figures/csavarnyomas.png> <./figures/csavarnyiras.png>]) (./fejezet/3.tex
-[4] [5 <./figures/elof-hszog.png> <./figures/hszog-hatasabra.png>]
+ [4 <./figures/kulso-lazitas.png> <./figures/lazitas.png>]
+Overfull \hbox (9.99998pt too wide) in paragraph at lines 30--32
+$[]$ 
+[5]
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+58.
+
+
 Overfull \hbox (0.89316pt too wide) in paragraph at lines 75--77
 []$[]$ 
-[6 <./figures/hevederes-szegecs.png>]
+[6 <./figures/elof-hszog.png> <./figures/hszog-hatasabra.png> <./figures/hevede
+res-szegecs.png>]
 Overfull \hbox (0.89316pt too wide) in paragraph at lines 127--129
 []$[]$ 
-)
+[7 <./figures/retesz.png>]) (./fejezet/4.tex [8]
+Overfull \hbox (5.45006pt too wide) in paragraph at lines 21--23
+[]$[]$ 
+
+Overfull \hbox (58.1982pt too wide) in paragraph at lines 29--30
+[]$\OML/cmm/m/it/10 ^^[[][] \OT1/cmr/m/n/10 = [] =
+[9 <./figures/sarokvarrat.png>])
 
 Package caption Warning: Unused \captionsetup[table] on input line 17.
 See the caption package documentation for explanation.
 
-[7 <./figures/retesz.png>] (build/main.aux) )
+[10 <./figures/szegkotes.png>] (build/main.aux) )
 (see the transcript file for additional information){/usr/share/texlive/texmf-d
 ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
@@ -257,5 +272,5 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share
 onts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb>
-Output written on build/main.pdf (8 pages, 655936 bytes).
+Output written on build/main.pdf (11 pages, 1038829 bytes).
 Transcript written on build/main.log.
